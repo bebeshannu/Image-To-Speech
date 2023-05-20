@@ -1,0 +1,38 @@
+{%extends "base.html"%}
+    
+{%block content%}
+
+<center>
+
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	
+<img src="{{url_for('static', filename='file.jpg')}}" alt="image" height=340px>
+
+<br>
+<br>
+	<br>
+<h4 style="text-align:center ;" >
+	<br>
+	{{data}}
+</h4>
+<div style="text-align: center;" >
+<body>
+	
+	<br>
+	<br>
+<audio src="file:///C:/Users/USER/Desktop/image_caption/audio.mp3" controls>
+	<!-- <source src="C:\Users\USER\Desktop\image_caption\audio.mp3" controls /> -->
+	<!-- <source src="audio.ogg" type="audio/ogg" /> -->
+	<!-- <p>
+	  Your browser doesn't support this audio file. Here is a
+	  <a href="audio.mp3">link to the audio</a> instead.
+	</p> -->
+  </audio>
+</body>
+</center>
+
+{%endblock%}
